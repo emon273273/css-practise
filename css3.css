@@ -1,0 +1,135 @@
+/* text effect
+.about{
+text-shadow: 2px 4px 5px blue;
+
+}
+
+.about:hover{
+
+    transform: rotate(90deg);
+    transition:transform 6s;
+}
+
+
+/* .word{
+
+word-wrap:break-word;
+border: 1px solid black;
+width: 150px ;
+
+} */
+/* .word{
+
+    border:2px solid;
+    padding:20px;
+    width:300px;
+    resize:horizontal;
+  overflow:auto;
+}
+p{
+
+
+  width:100px;
+  height:100px; 
+  padding:15px; 
+border: 3px solid green;
+ 
+  outline-style: dotted;
+  outline-color:red;
+  outline-width:thick;
+  color:tomato;
+  text-align: right;
+  text-shadow: 2px 2px;
+
+}
+a{
+
+    color:red;
+}
+table, th, td{
+
+    border: 1px solid;
+}
+li{
+
+display: inline;
+
+}
+span{
+
+    display: block;
+}  */
+
+.about{
+
+  font-family: cursive;
+
+}
+
+/* css box model */
+
+
+*{
+
+  margin: 0;
+  padding:0;
+}
+.container{
+
+  background-color: green;
+  border: 3px solid rgb(23, 55, 99);
+  
+  padding: 10px;
+  margin: 2px;
+  width: 200px;
+  box-sizing: border-box;  
+  /* box-sizing use korar karon hossse width ar padding er sther jate kono somporko na thake jano  */
+}
+
+/* margin auto means  full content ta  tmar maj a auto chole jabe char pase margin niye */
+ #btn{
+
+  background-color:green;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+ }
+ .navbar{
+   background-color: black;
+border-radius:4px; 
+ }
+
+ .navbar ul{
+   overflow: hidden;
+ }
+ .navbar li{
+
+  float: left;
+  list-style: none;
+  padding: 3px 3px;
+  margin:3px 5px;
+ }
+ .navbar li a{
+
+  padding: 3px;
+  text-decoration:none;
+  color:white;
+ }
+ .search{
+  float: right;
+  color: white;
+  font-size: 22px;
+  padding: 3px 13px;
+  
+ }
+ .navbar input{
+border:2px solid black;
+padding: 5px;
+border-radius: 14px;
+ }
+ .navbar li a:hover{
+
+  color:red;
+ }
